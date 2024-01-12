@@ -8,7 +8,7 @@ body{
 /* header style */
 header{
     background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
+    padding: 0px 240px 50px;
 }
 nav{
     display: flex;
@@ -65,7 +65,33 @@ color: #ffff;
 font-family: 600;
 transition: .7s;
 cursor: pointer;
+margin: 32px 0 50px;
 }
 .primary-button:hover{
 transform: scale(1.2);
+
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+/* responsive media queries */
+@media screen and (max-width:756px) {
+    header{
+        padding: 30px ;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .navTitle{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width:11px) and (max-width:1140px){
+    header{
+        padding: 50px;
+    }
 }
