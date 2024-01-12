@@ -76,6 +76,39 @@ transform: scale(1.2);
     width: 100%;
 }
 
+/* main section style */
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+/* team section */
+.teams-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 0 90px;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding:0 70px ;
+}
+
+.teams-title{
+    font-size: 2.7rem;
+    font-weight: 700;
+}
+
+#span-1{
+    font-weight: 500;
+    color: #727272;
+}
+#span-2{
+    color: #FF900E;
+}
 
 /* responsive media queries */
 @media screen and (max-width:756px) {
