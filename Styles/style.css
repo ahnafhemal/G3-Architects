@@ -121,10 +121,29 @@ main{
     .navTitle{
         font-size: 1.8rem;
     }
+    .teams-content{
+        padding: 0 20px;
+    }
+    .teams-container{
+        flex-direction:column;
+        text-align: center;
+    }
+    .teams-img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
-@media screen and (min-width:11px) and (max-width:1140px){
+@media screen and (min-width:757px) and (max-width:1140px){
     header{
         padding: 50px;
+    }
+    .teams-container{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+
+    .teams-img-container{
+        /* grid-template-columns: repeat(1,1fr); */
     }
 }
